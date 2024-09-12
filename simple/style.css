@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  justify-content: space-between;
+  padding: 0rem calc((100vw-1300px) / 2);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1.5rem;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.logo {
+  color: black;
+  padding: 0 2rem;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hero {
+  background-color: yellow;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw-1300px) / 2);
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  align-items: flex-start;
+  pad: 0rem 2rem;
+  color: black;
+}
+
+.column-left h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.column-left p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+button {
+  color: yellow;
+  border: none;
+  border-radius: 80px;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background-color: black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
